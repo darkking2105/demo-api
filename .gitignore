@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+
+# React dependencies
+node_modules/
+
+# Environment secrets
+.env
+
+# IDE folders
+.idea/
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db 
