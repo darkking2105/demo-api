@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Primary;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String name;
     private String description;
     private double price;
